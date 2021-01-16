@@ -1,52 +1,12 @@
-# Prerequisites
-*.d
+# Excluye carpetas de MCUXpresso Workspace
+*.metadata
+*.mcuxpressoide_packages_support
+*.launch
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Excluye carpeta FreeRTOS_TAD_logs
+/FreeRTOS_TAD_logs/
 
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+#Excluir carpetas temporales
+/FRDM_KL02Z_mma8451/debug/
+/FRDM_KL02Z_mma8451/release/
+/FRDM_KL02Z_mma8451/doc/
